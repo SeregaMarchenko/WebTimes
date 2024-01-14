@@ -4,28 +4,4 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-    <servlet-name>MinskTime</servlet-name>
-    <servlet-class>servlets.MinskTimeServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>WashingtonTime</servlet-name>
-    <servlet-class>servlets.WashingtonTimeServlet</servlet-class>
-  </servlet>
-  <servlet>
-    <servlet-name>BeijingTime</servlet-name>
-    <servlet-class>servlets.BeijingTimeServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>BeijingTime</servlet-name>
-    <url-pattern>/beijing</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>WashingtonTime</servlet-name>
-    <url-pattern>/washington</url-pattern>
-  </servlet-mapping>
-  <servlet-mapping>
-    <servlet-name>MinskTime</servlet-name>
-    <url-pattern>/minsk</url-pattern>
-  </servlet-mapping>
 </web-app>
